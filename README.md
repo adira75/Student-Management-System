@@ -1,30 +1,47 @@
 # Student Management System
 
-A C++ based Student Management System.
+A C++ based Student Management System that manages student records using file handling.
 
 ## Features
 
 - Add Student
-- Display Student
+- Display Student Records
 - Search Student
-- Update Student
+- Update Student Details
 - Delete Student
-- Save Student Data
-- Load Student Data
+- Permanent Data Storage using File Handling
 
 ## Technologies Used
 
 - C++
+- OOP Concepts
 - File Handling
 - Structures
-- Arrays
+
+## Project Structure
+
+Student-Management-System
+
+├── main.cpp
+├── student.h
+├── student.cpp
+├── filehandler.h
+├── filehandler.cpp
+└── students.txt
 
 ## How to Run
 
 Compile:
 
-g++ main.cpp -o main
+g++ main.cpp student.cpp filehandler.cpp -o main
 
 Run:
 
 ./main
+
+## Future Improvements
+
+- Login System
+- Database Integration
+- GUI Interface
+- Sorting and Filtering
