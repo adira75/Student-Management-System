@@ -14,12 +14,3 @@ ullu
 cse
 80
 1
-aditi
-23
-cse
-90
-2
-pushu
-23
-cse
-90
